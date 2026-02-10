@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const MAKE_WEBHOOK_URL = 'https://hook.make.com/your_new_clean_webhook_id';
+const MAKE_WEBHOOK_URL = 'https://hook.us2.make.com/e3458at6n66xwg9a7crgyhpr7hbpfp1a';
 
 app.post('/toast-webhook', async (req, res) => {
     try {
